@@ -1,11 +1,11 @@
-HDSD NHANH
+**HDSD NHANH**
 
-CÀI ĐẶT PYTHON TẠI `https://www.python.org/downloads/`
-SAU KHI CÀI ĐẶT PYTHON, MỞ ĐƯỜNG DẪN `C:\Users\Admin\AppData\Local\Programs\Python\` và tìm thư mục chứa các file `pip.exe`;`pip3.exe`;...
-SAU ĐÓ CHẠY **CMD** VỚI QUYỀN ADMIN TẠI THƯ MỤC CHỨA FILE `.pip`
-NHẬP LẦN LƯỢT "pip install selenium" và "pip install urllib3"
-
-TẢI CHROMEDRIVER TẠI [link](https://chromedriver.chromium.org/getting-started). 
+CÀI ĐẶT PYTHON TẠI `https://www.python.org/downloads/`\
+SAU KHI CÀI ĐẶT PYTHON, MỞ ĐƯỜNG DẪN `C:\Users\Admin\AppData\Local\Programs\Python\` và tìm thư mục chứa các file `pip.exe`;`pip3.exe`;...\
+SAU ĐÓ CHẠY **CMD** VỚI QUYỀN ADMIN TẠI THƯ MỤC CHỨA FILE `.pip`\
+NHẬP LẦN LƯỢT "pip install selenium" và "pip install urllib3"\
+\
+TẢI CHROMEDRIVER TẠI [CHROMEDRIVER](https://chromedriver.chromium.org/getting-started). \
 (GIẢI NÉN `chromedriver.exe` VÀO `C:\Windows\` VỚI QUYỀN ADMIN)
 
 MỞ `config.ini` và sửa username, password, class code, test number.
@@ -24,10 +24,9 @@ TestNumber = <enter your test number>
 
 **WARNING:** KHÔNG SỬ DỤNG TÀI KHOẢN CHÍNH ĐỂ LÀM BÀI KIỂM TRA VÌ BẠN SẼ HOÀN THÀNH SỚM VÀ RỜI KHỎI SHUB SERVER
 
-CHẠY .py THUI
-------
+**CHẠY .py THUI**
 
-TRONH config.ini, dưới `[SETTINGS]` bạn có thể thay tên csv file .\
+TRONG config.ini, dưới `[SETTINGS]` bạn có thể thay tên csv file .\
 `KeyFileName = key.csv`\
 CÓ THỂ THAY THỜI GIAN NGHỈ TRONG MỘT KHOẢNG THỜI GIAN.\
 `SleepTime = 1`
